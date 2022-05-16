@@ -7,9 +7,9 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 # IDEA
-out
-.DS_Store
-.idea
+/out/
+/.DS_Store
+/.idea/
 *.iws
 *.iml
 *.ipr
