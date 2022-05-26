@@ -12,6 +12,7 @@ public class lc438 {
     public static List<Integer> findAnagrams(String s, String p) {
         int[] st = new int[26];
         List<Integer> res = new ArrayList<>();
+        // count表示对应窗口的字符串中有几个字符在p中没有出现过
         int count = 0, len = p.length();
         if (len > s.length()) return res;
         for (int i = 0; i < len; i++) {
