@@ -10,6 +10,7 @@ public class nc4 {
             fast = fast.next.next;
             if (slow == fast) return true;
         }
+        String str = new String();
         return false;
     }
 }
