@@ -1,5 +1,6 @@
 package code.middle;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +27,7 @@ public class lc46 {
             cur.add(nums[idx]);
             dfs(nums, idx + 1);
             cur.remove(cur.size() - 1);
+            new IOException();
         }
     }
 
